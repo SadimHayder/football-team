@@ -1,0 +1,137 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgrey; 
+}
+.container{
+    display: flex;
+    background-color: blue;
+}
+.banner-part{
+    width: 50%;
+    /* margin-left: 154px; */
+}
+.banner-part h2{
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 80px;
+    width: 485px;
+    height: 230px;
+    margin-left: 156px;
+    margin-top: 207px;
+}
+.banner-part button{
+    width: 168px;
+    height: 44px;
+    color:  #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; 
+    background: #E02C6D;
+    margin-left: 156px;
+}
+.banner-part img{
+    width: 556px;
+    height: 441px;
+    margin-top: 153px;
+    margin-right: 148px;
+    margin-bottom: 83px;
+}
+.banner-part img{  
+    width: 556px;
+    height: 441px;
+    left: 1292px;
+    top: 153px;
+}
+.banner-part img:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+
+/* players info styles */
+
+.All-player{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-template: repeat(3, 1fr);
+    background: #FFFFFF ;
+    padding-top: 70px;
+    
+}
+.player-details{
+    width: 330px;
+    height: 474px;
+
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);;
+}
+.player-details p{
+    color: #6C6C6C;
+
+}
+.photo img{
+    width: 100%;
+}
+.container-match{
+    display: flex;
+    background-color: #FFFFFF;
+}
+.match{
+    width: 50%;
+    /* padding-left: 154px; */
+}
+.match h3{
+    color: #0A0826;
+    font-size: 48px;
+    line-height: 60px;
+    width: 466px;
+    height: 120px;
+    margin-left: 182px;
+    margin-top: 224px;
+    
+}
+.match p{
+    color: #6C6C6C;
+    width: 404px;
+    height: 113px;
+    margin-left: 182px;
+    padding-top: 8px;
+}
+.match button{
+    width: 168px;
+    height: 44px;
+    color:  #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; 
+    background: #E02C6D;
+    margin-left: 182px;
+}
+.match img{
+    width: 567px;
+    height: 427px;
+    margin-top: 153px;
+    margin-right: 148px;
+    margin-bottom: 83px;
+}
+ .match img{  
+    width: 556px;
+    height: 441px;
+} 
+/* Footer styles */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-bottom: 63px;
+}
+.footer-logo img{
+    width: 483.87px;
+    height: 110px;
+    
+}
