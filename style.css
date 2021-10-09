@@ -28,8 +28,16 @@ body{
     line-height: 24px; 
     background: #E02C6D;
     margin-left: 156px;
+    margin-bottom: 169px;
 }
 .banner-part img{
+    position: absolute;
+    width: 556px;
+    height: 441px;
+    left: 736px;
+    top: 153px;
+}
+/* .banner-part img{
     width: 556px;
     height: 441px;
     margin-top: 153px;
@@ -41,7 +49,7 @@ body{
     height: 441px;
     left: 1292px;
     top: 153px;
-}
+} */
 .banner-part img:hover{
     transform: scale(1.2);
     transition: transform 2s ease-in-out;
@@ -109,6 +117,7 @@ body{
     background: #E02C6D;
     margin-left: 182px;
 }
+
 .match img{
     width: 567px;
     height: 427px;
@@ -132,6 +141,44 @@ footer{
 }
 .footer-logo img{
     width: 483.87px;
-    height: 110px;
-    
+    height: 110px;   
+}
+/*<<<<<<<<<<<<<<<<<
+
+    Media Queries 
+
+>>>>>>>>>>>>>>>>>>>*/
+
+/*<<<<<<<<<<<<<<<<<<<
+
+    Mobile Devices
+
+>>>>>>>>>>>>>>>>>>>>>*/
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;   
+    }
+    .banner-part img{
+        width: 329px;
+        height: 259.17px;
+        flex-direction: column;
+    }
+    .All-player{
+        width: 100%;
+    }
+    .player-details{
+        background-color: aquamarine;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .All-player{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player-details{
+        background-color: khaki;
+        
+    }
 }
